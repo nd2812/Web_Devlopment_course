@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity</title>
+    <style>
+        /* The specificity of this selector is 1 */
+        h1{
+            color: aqua;
+        }
+        /* The specificity of this selector is 10 */
+        .yellow{
+            color: yellow ;
+            /* color: blue !important; if you use important than it has more priority order than else one */
+        }
+        /* The specificity of this selector is 1+10=11 */
+        h1.cred{
+            color: red;
+        }
+        /* The specificity of this selector is 1+10+10+10++10=41 */
+        h1.cpurple.rohan-class[data-x=a]:hover{
+            color: purple;
+        }
+        
+        /* The specificity of this selector is 10 */
+        /* [data-x=a]{
+            background-color: red;
+        } attribute selector*/
+    </style>
+</head>
+<body>
+    <div>
+        <h1 class="yellow cred cpurple" data-x="a">CSS Specificity</h1>
+        <!-- <h1 style="color: blue;"">CSS Specificity</h1> this has very high priority  -->
+    </div>
+</body>
+</html>
