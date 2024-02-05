@@ -1,0 +1,14 @@
+(1)to stop getting horizonatal scroll -->alt+z
+(2)to copy down same line -->ctrl+d
+(3)undo-->ctrl+u
+(4)redo-->ctrl+y
+(5)to get multiple cursure-->alt
+(6)to rune code-->ctrl+enter
+(7)Finds a specific text in the code-->ctrl+f
+(8)comment-->ctrl+/
+(9)to get new window-->ctrl+shift+N
+(10)Close the current file-->Ctrl + W
+(11)Reopen the last closed file-->Ctrl + Shift + T
+(12)Switch between open files-->Ctrl + Tab
+(13)insert line below-->tab+d
+(14)insert line above-->ctrl+shift+enter
