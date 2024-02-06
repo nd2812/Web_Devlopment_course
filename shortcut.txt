@@ -10,5 +10,5 @@
 (10)Close the current file-->Ctrl + W
 (11)Reopen the last closed file-->Ctrl + Shift + T
 (12)Switch between open files-->Ctrl + Tab
-(13)insert line below-->tab+d
+(13)insert line below-->alt+n
 (14)insert line above-->ctrl+shift+enter
