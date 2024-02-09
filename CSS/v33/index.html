@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 4</title>
+    <style>
+        nav ul li{
+            list-style-position: inside;
+            border: 2px solid black;
+        }
+        :root{
+            --color: blue;
+            --seccolor: red;
+        }
+        ul:first-child{
+            margin: 0;
+            padding: 0;
+            color: rgb(227, 79, 34);
+            background-color: orange;
+        }
+        ul li:nth-child(2){
+            color: green;
+            background-color: white;
+        }
+        ul li:nth-child(3){
+            color: rgb(204, 247, 11);
+            background-color: green;
+        }
+        li:nth-child(1):hover{
+            background-color: var(--seccolor);
+        }
+        li:nth-child(2):hover{
+            background-color: var(--seccolor);
+        }
+        li:nth-child(3):hover{
+            background-color: var(--seccolor);
+        }
+    </style>
+</head>
+<body>
+    <!-- If you see this , comment "Bhupendra Jogi" in the comments. He is my friend who has visited a lot of places in the US. -->
+    <nav>
+        <ul>
+            <li>About</li>
+            <li>Contacts</li>
+            <li>Review</li>
+        </ul>
+    </nav>
+</body>
+</html>
